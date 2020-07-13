@@ -27,11 +27,16 @@ const AddStudent = () => {
     }); 
 
     const handleChange = e => {
+        let currentValue = Object.assign({}, student);
+        currentValue[e.target.name] = e.target.value;
+        setStudent(currentValue);
+        /*
+        // Not Compatible with IE/Edge due the use of spread operator 
         const value = e.target.value;
         setStudent({
             ...student,
             [e.target.name] : value
-        })
+        })*/
     }
 
     const submit = e => {

@@ -1,0 +1,76 @@
+@import '~bootstrap/dist/css/bootstrap.css';
+
+$color-label: #6c757d !important;
+$color-primary: #007bff;
+
+
+.cc-main-header-title {
+    color: $color-label;
+    font-size: 24px;
+}
+
+.cc-main-header-container {
+    margin-top: 0.5rem;
+}
+
+.table .cc-thead th {
+    color: #fff;
+    background-color: $color-primary !important;
+    border-color: $color-primary;
+}
+
+.cc-page-title {
+    font-size: 2rem;
+    @extend .text-info !optional;
+}
+
+.cc-icon,
+.table td a {
+    color: $color-label;
+}
+
+.cc-button {
+    cursor: pointer;
+}
+
+.cc-picture-placeholder {
+    vertical-align: middle;
+    //background-color: $color-primary;
+}
+
+.cc-link-back-to {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+@media (min-width : 320px) {
+    .cc-picture-placeholder {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { 
+    .cc-picture-placeholder {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+    .cc-picture-placeholder {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
+    .cc-picture-placeholder {
+        width: 300px;
+        height: 300px;
+    }   
+}

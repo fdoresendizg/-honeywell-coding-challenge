@@ -15,23 +15,23 @@ You will also see any lint errors in the console.
 The following are the available pages:<br />
 <table>
     <tr>
-        <td>`#/`</td>
+        <td>#/</td>
         <td>List of all Students</td>
     </tr>
     <tr>
-        <td>`#/`</td>
+        <td>#/</td>
         <td>List of all Students</td>
     </tr>
     <tr>
-        <td>`#/students`</td>
+        <td>#/students</td>
         <td>List of all Students</td>
     </tr>
     <tr>
-        <td>`#/addStudent`</td>
+        <td>#/addStudent</td>
         <td>Add a new Student</td>
     </tr>
     <tr>
-        <td>`#/student/:studentId`</td>
+        <td>#/student/:studentId</td>
         <td>View details of specific Student</td>
     </tr>    
 </table>      

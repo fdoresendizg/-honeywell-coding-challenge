@@ -7,7 +7,7 @@ import AddStudent from './components/container/add-student';
 import Student from './components/container/student';
 import NotFound from './components/container/not-found';
 
-import * as globals from './constants';
+import { PATH_STUDENTS, PATH_ADD_STUDENT, PATH_STUDENT_DETAIL } from './constants';
 
 const routing = () => {    
     return (
@@ -15,9 +15,9 @@ const routing = () => {
           <App>
             <Switch>
               <Route exact path="/" component={StudentsList} />
-              <Route exact path={`/${globals.PATH_STUDENTS}`} component={StudentsList} />
-              <Route path={`/${globals.PATH_ADD_STUDENT}`} component={AddStudent} />
-              <Route path={`/${globals.PATH_STUDENT_DETAIL}/:id`} component={Student} />
+              <Route exact path={`/${PATH_STUDENTS}`} component={StudentsList} />
+              <Route path={`/${PATH_ADD_STUDENT}`} component={AddStudent} />
+              <Route path={`/${PATH_STUDENT_DETAIL}/:id`} component={Student} />
               <Route path="*" component={NotFound} />
             </Switch>
           </App>

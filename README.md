@@ -15,7 +15,7 @@ You will also see any lint errors in the console.
 ## Routes
 
 The following are the available pages:<br />
-`#/`                        List of all Students
-`#/students`                List of all Students
-`#/addStudent`              Add a new Student
-`#/student/:studentId`      View details of specific Student
+`#/`                        List of all Students<br />
+`#/students`                List of all Students<br />
+`#/addStudent`              Add a new Student<br />
+`#/student/:studentId`      View details of specific Student<br />

@@ -11,3 +11,11 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
+
+## Routes
+
+The following are the available pages:<br />
+`#/`                        List of all Students
+`#/students`                List of all Students
+`#/addStudent`              Add a new Student
+`#/student/:studentId`      View details of specific Student
